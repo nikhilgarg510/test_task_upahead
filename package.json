@@ -1,7 +1,8 @@
 {
-  "name": "test_task",
-  "version": "0.1.0",
+  "name": "task-management-app",
+  "version": "1.0.0",
   "private": true,
+  "description": "A task management application built with Next.js, Firebase, and Redux",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
@@ -9,15 +10,22 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.9.0",
+    "clsx": "^2.1.1",
+    "firebase": "^12.3.0",
+    "framer-motion": "^12.23.15",
+    "lucide-react": "^0.544.0",
+    "next": "15.5.3",
+    "openai": "^5.21.0",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "next": "15.5.3"
+    "react-redux": "^9.2.0"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.5.3",
-    "@eslint/eslintrc": "^3"
+    "tailwindcss": "^4"
   }
 }
