@@ -2,17 +2,7 @@
  * Add Task Page
  * 
  * Enhanced form interface with:
- * - Smoo        // Debounce rapid submissions (prevent within 2 seconds)
-        const now = Date.now();
-        if (now - lastSubmitTime < 2000) {
-            return;
-        }
-
-        // Create a simple hash of the task data to prevent duplicate submissions
-        const taskHash = `${formData.title}_${formData.description}_${formData.type}_${formData.dueDate}`;
-        if (lastTaskHash === taskHash) {
-            return;
-        } and transitions
+ * - Smooth animations and transitions
  * - Modern form design with floating labels
  * - Interactive elements and micro-interactions
  * - Better visual hierarchy
